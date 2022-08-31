@@ -17,3 +17,9 @@ C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\ref\V12MIT.dll
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\bin\Debug\net6.0-windows\V12MIT.dll.config
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.Resources.resources
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.CyComboBox.resources
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.CyTextBox.resources
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.vbproj.CopyComplete
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.AlertasPersonalizadas.resources
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.Escritorio.resources
