@@ -101,6 +101,15 @@ Public Class CyTextBox
         End Set
     End Property
     <Category("Cy Propiedades")>
+    Public Overloads Property Text As String
+        Get
+            Return TBContenido.Text
+        End Get
+        Set(value As String)
+            TBContenido.Text = value
+        End Set
+    End Property
+    <Category("Cy Propiedades")>
     Public Property MultilineText As Boolean
         Get
             Return TBContenido.Multiline

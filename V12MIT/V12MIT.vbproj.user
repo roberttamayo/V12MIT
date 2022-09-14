@@ -4,6 +4,15 @@
     <Compile Update="Administracion\Departamentos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Administracion\Marcas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administracion\Sucursales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Administracion\UsuariosAdmin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="ClassAndControls\Controls\CyButton.vb">
       <SubType>Component</SubType>
     </Compile>
