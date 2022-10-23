@@ -27,15 +27,12 @@ Public Class Escritorio
     Private Sub SucursalesMenuItem_Click(sender As Object, e As EventArgs) Handles SucursalesMenuItem.Click
         Sucursales.Show()
     End Sub
-
     Private Sub UsuariosMenuItem_Click(sender As Object, e As EventArgs) Handles UsuariosMenuItem.Click
         UsuariosAdmin.Show()
     End Sub
-
     Private Sub DepartamentosMenuItem_Click(sender As Object, e As EventArgs) Handles DepartamentosMenuItem.Click
         Departamentos.Show()
     End Sub
-
     Private Sub MarcaMenuItem_Click(sender As Object, e As EventArgs) Handles MarcaMenuItem.Click
         Marcas.Show()
     End Sub

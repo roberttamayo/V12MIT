@@ -297,6 +297,7 @@ Partial Class Departamentos
         Me.Controls.Add(Me.DGVDepartamentos)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "Departamentos"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Administracion de departamentos"
         CType(Me.DGVDepartamentos, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)

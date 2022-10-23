@@ -124,6 +124,7 @@ Partial Class Form1
         Me.CBSucursales.MinimumSize = New System.Drawing.Size(200, 30)
         Me.CBSucursales.Name = "CBSucursales"
         Me.CBSucursales.Padding = New System.Windows.Forms.Padding(1)
+        Me.CBSucursales.Placeholder = "Selecciona una sucursal"
         Me.CBSucursales.Size = New System.Drawing.Size(259, 30)
         Me.CBSucursales.TabIndex = 5
         Me.CBSucursales.TamBorde = 1

@@ -31,6 +31,8 @@ Partial Class Marcas
         Me.fechaMarcaCol = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.HoraMarcasCol = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.LPaso1 = New System.Windows.Forms.Label()
         Me.BAgregar = New V12MIT.CyButton()
         Me.CTEstatus = New V12MIT.CyTogle_()
         Me.TBNombre = New V12MIT.CyTextBox()
@@ -42,7 +44,10 @@ Partial Class Marcas
         Me.LID = New System.Windows.Forms.Label()
         Me.BActualizar = New V12MIT.CyButton()
         Me.BCancelar = New V12MIT.CyButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         CType(Me.DGVMarcas, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Panel1.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'DGVMarcas
@@ -105,11 +110,35 @@ Partial Class Marcas
         '
         'Panel1
         '
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.PictureBox1)
+        Me.Panel1.Controls.Add(Me.LPaso1)
         Me.Panel1.Dock = System.Windows.Forms.DockStyle.Right
         Me.Panel1.Location = New System.Drawing.Point(577, 0)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(223, 450)
         Me.Panel1.TabIndex = 1
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.V12MIT.My.Resources.Resources.marcas_icon
+        Me.PictureBox1.Location = New System.Drawing.Point(72, 357)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(97, 70)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabStop = False
+        '
+        'LPaso1
+        '
+        Me.LPaso1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.LPaso1.ForeColor = System.Drawing.Color.White
+        Me.LPaso1.Location = New System.Drawing.Point(31, 22)
+        Me.LPaso1.Name = "LPaso1"
+        Me.LPaso1.Size = New System.Drawing.Size(166, 114)
+        Me.LPaso1.TabIndex = 2
+        Me.LPaso1.Text = "• Llene los campos y luego de en agregar para agregar una nueva marca de producto" &
+    "s esta sucursal"
         '
         'BAgregar
         '
@@ -273,6 +302,18 @@ Partial Class Marcas
         Me.BCancelar.Text = "Cancelar"
         Me.BCancelar.UseVisualStyleBackColor = False
         '
+        'Label1
+        '
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point)
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(31, 147)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(166, 176)
+        Me.Label1.TabIndex = 4
+        Me.Label1.Text = "• Para editar las marcas primero haga doble clic en la marca que se desea modific" &
+    "ar, no es posible eliminar las marcas de forma permanente, solo se podrán desact" &
+    "ivar o reactivar"
+        '
         'Marcas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
@@ -299,6 +340,8 @@ Partial Class Marcas
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Administracion de Marcas de ropa"
         CType(Me.DGVMarcas, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -321,4 +364,7 @@ Partial Class Marcas
     Friend WithEvents LID As Label
     Friend WithEvents BActualizar As CyButton
     Friend WithEvents BCancelar As CyButton
+    Friend WithEvents LPaso1 As Label
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents Label1 As Label
 End Class

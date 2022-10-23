@@ -202,6 +202,16 @@ Public Class CyComboBox
             ComboBox1.SelectedText = value
         End Set
     End Property
+    <Category("Cy Propiedades")>
+    Public Property Placeholder As String
+        Get
+            Return Label1.Text()
+        End Get
+        Set(value As String)
+            Label1.Text = value
+            Invalidate()
+        End Set
+    End Property
 #End Region
     Public Event SelectedIndexChangedCB(sender As Object, e As EventArgs)
     Public Sub New()
