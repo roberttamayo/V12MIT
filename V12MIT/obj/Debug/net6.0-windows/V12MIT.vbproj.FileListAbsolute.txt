@@ -27,3 +27,4 @@ C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.Marcas.resources
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.Sucursales.resources
 C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.UsuariosAdmin.resources
+C:\Users\rober\OneDrive\Proyectos\V12MIT\V12MIT\obj\Debug\net6.0-windows\V12MIT.Tallas.resources

@@ -12,7 +12,8 @@
         DGVMarcas.Rows.Clear()
         Dim marcas = MySQL.SelectQuery($"select * from marcas where id_sucursal_FK = {SESION.IdSucursal}")
         While marcas.Read()
-            DGVMarcas.Rows.Add(marcas.Item("id_marcas"), marcas.Item("nombre_marcas"), If(marcas.Item("estatus_marcas") = 1, "Activo", "Eliminado"), marcas.Item("fecha_marcas"), marcas.Item("hora_marcas"))
+            Dim fechamarcas As Date = marcas.Item("fecha_marcas")
+            DGVMarcas.Rows.Add(marcas.Item("id_marcas"), marcas.Item("nombre_marcas"), If(marcas.Item("estatus_marcas") = 1, "Activo", "Eliminado"), fechamarcas.ToString("yyyy-MM-dd"), marcas.Item("hora_marcas"))
         End While
         MySQL.NextResult()
     End Sub
@@ -76,7 +77,7 @@
     End Sub
     Private Sub DGVMarcas_CellDoubleClick(sender As Object, e As DataGridViewCellEventArgs) Handles DGVMarcas.CellDoubleClick
         TBNombre.Texts = DGVMarcas.CurrentRow.Cells(1).Value
-        TBFecha.Texts = DGVMarcas.CurrentRow.Cells(3).Value.ToString("yyyy-MM-dd")
-        TBHora.Texts = DGVMarcas.CurrentRow.Cells(4).Value.ToString("HH:mm:ss")
+        TBFecha.Texts = DGVMarcas.CurrentRow.Cells(3).Value
+        TBHora.Texts = DGVMarcas.CurrentRow.Cells(4).Value.ToString()
     End Sub
 End Class

@@ -56,6 +56,7 @@ Partial Class Departamentos
         Me.DGVDepartamentos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.DGVDepartamentos.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.IDDep, Me.NombreDp, Me.DescripcionDepa, Me.EstatusDepa})
         Me.DGVDepartamentos.Location = New System.Drawing.Point(26, 23)
+        Me.DGVDepartamentos.MultiSelect = False
         Me.DGVDepartamentos.Name = "DGVDepartamentos"
         Me.DGVDepartamentos.ReadOnly = True
         Me.DGVDepartamentos.RowTemplate.Height = 25

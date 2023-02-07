@@ -6,7 +6,7 @@
             Dim estatus As String = If(sucursales.Item("estatus_sucursal") = 1, "Activo", "Eliminada")
             Dim fecha As Date = sucursales.Item("fecha_sucursal")
             Dim hora As TimeSpan = sucursales.Item("hora_sucursal")
-            DGVSucursales.Rows.Add(sucursales.Item("id_sucursal"), sucursales.Item("nombre_sucursal"), sucursales.Item("descripcion_sucursal"), estatus, fecha.ToString("yyyy-MM-dd:"), hora.ToString())
+            DGVSucursales.Rows.Add(sucursales.Item("id_sucursal"), sucursales.Item("nombre_sucursal"), sucursales.Item("descripcion_sucursal"), estatus, fecha.ToString("yyyy-MM-dd"), hora.ToString())
         End While
         MySQL.NextResult()
     End Sub
