@@ -70,42 +70,42 @@ Partial Class Escritorio
         Me.SucursalesMenuItem.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.SucursalesMenuItem.Image = Global.V12MIT.My.Resources.Resources.IconSucursal
         Me.SucursalesMenuItem.Name = "SucursalesMenuItem"
-        Me.SucursalesMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.SucursalesMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.SucursalesMenuItem.Text = "Sucursales"
         '
         'UsuariosMenuItem
         '
         Me.UsuariosMenuItem.Image = Global.V12MIT.My.Resources.Resources.users_icon
         Me.UsuariosMenuItem.Name = "UsuariosMenuItem"
-        Me.UsuariosMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.UsuariosMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.UsuariosMenuItem.Text = "Usuarios"
         '
         'DepartamentosMenuItem
         '
         Me.DepartamentosMenuItem.Image = Global.V12MIT.My.Resources.Resources.departamentos_icon
         Me.DepartamentosMenuItem.Name = "DepartamentosMenuItem"
-        Me.DepartamentosMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.DepartamentosMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.DepartamentosMenuItem.Text = "Departamentos"
         '
         'MarcaMenuItem
         '
         Me.MarcaMenuItem.Image = Global.V12MIT.My.Resources.Resources.marcas_icon
         Me.MarcaMenuItem.Name = "MarcaMenuItem"
-        Me.MarcaMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.MarcaMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.MarcaMenuItem.Text = "Marcas"
         '
         'TallasMenuItem
         '
         Me.TallasMenuItem.Image = Global.V12MIT.My.Resources.Resources.tallas_icon
         Me.TallasMenuItem.Name = "TallasMenuItem"
-        Me.TallasMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.TallasMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.TallasMenuItem.Text = "Tallas"
         '
         'ProductosMenuItem
         '
         Me.ProductosMenuItem.Image = Global.V12MIT.My.Resources.Resources.productos_icon
         Me.ProductosMenuItem.Name = "ProductosMenuItem"
-        Me.ProductosMenuItem.Size = New System.Drawing.Size(155, 22)
+        Me.ProductosMenuItem.Size = New System.Drawing.Size(180, 22)
         Me.ProductosMenuItem.Text = "Producots"
         '
         'Escritorio

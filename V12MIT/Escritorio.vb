@@ -36,4 +36,8 @@ Public Class Escritorio
     Private Sub MarcaMenuItem_Click(sender As Object, e As EventArgs) Handles MarcaMenuItem.Click
         Marcas.Show()
     End Sub
+
+    Private Sub TallasMenuItem_Click(sender As Object, e As EventArgs) Handles TallasMenuItem.Click
+        Tallas.Show()
+    End Sub
 End Class

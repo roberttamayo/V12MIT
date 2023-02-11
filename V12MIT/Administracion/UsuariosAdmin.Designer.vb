@@ -445,6 +445,7 @@ Partial Class UsuariosAdmin
         Me.CyComboBoxRol.MinimumSize = New System.Drawing.Size(200, 30)
         Me.CyComboBoxRol.Name = "CyComboBoxRol"
         Me.CyComboBoxRol.Padding = New System.Windows.Forms.Padding(1)
+        Me.CyComboBoxRol.Placeholder = ""
         Me.CyComboBoxRol.Size = New System.Drawing.Size(200, 30)
         Me.CyComboBoxRol.TabIndex = 18
         Me.CyComboBoxRol.TamBorde = 1
@@ -577,11 +578,11 @@ Partial Class UsuariosAdmin
         Me.LabelPaso3.ForeColor = System.Drawing.Color.White
         Me.LabelPaso3.Location = New System.Drawing.Point(3, 216)
         Me.LabelPaso3.Name = "LabelPaso3"
-        Me.LabelPaso3.Size = New System.Drawing.Size(208, 84)
+        Me.LabelPaso3.Size = New System.Drawing.Size(208, 148)
         Me.LabelPaso3.TabIndex = 3
         Me.LabelPaso3.Text = "• Todos los usuarios que vez al lado izquierdo son solo de esta sucursal si neces" &
-    "itas revisar los usuarios de otra sucursal por favor selecciona la en la ventana" &
-    " de inicio de sesión "
+    "itas revisar los usuarios de otra sucursal por favor selecciona la sucursal a ed" &
+    "itar en la ventana de inicio de sesión "
         '
         'LabelPaso2
         '
@@ -608,7 +609,7 @@ Partial Class UsuariosAdmin
         'PictureBox1
         '
         Me.PictureBox1.Image = Global.V12MIT.My.Resources.Resources.users_icon
-        Me.PictureBox1.Location = New System.Drawing.Point(17, 473)
+        Me.PictureBox1.Location = New System.Drawing.Point(66, 437)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(75, 70)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
